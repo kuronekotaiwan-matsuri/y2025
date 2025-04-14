@@ -22,7 +22,9 @@ export default function Home() {
                 title="黒猫台湾まつり詳細情報"
                 descriptions={[
                     {title:"開催日", description:"2025年5月31日と6月1日"},
-                    {title:"開催場所", description:"川崎市高津区"},
+                    {title:"開催場所", description:"川崎市高津区（大山街道沿いの商店や中庭）"},
+                    {title:"メイン会場・総合案内", description:"〒213-0002 神奈川県川崎市高津区二子２丁目８−８ ウッディモアル　駄菓子の木村屋"},
+                    // https://maps.app.goo.gl/En2HiiN8Xxkav8616 なんとか入れられないか...
                     {title:"開催時間", description:"10:00-18:00"},
                     {title:"参加費", description:"無料"},
                 ]}
@@ -57,7 +59,7 @@ export default function Home() {
                 ]}
             />
             <Gallery18
-                heading="これまでのおまつり風景"
+                heading="過去の開催風景"
                 description=""
                 images={[
                     {

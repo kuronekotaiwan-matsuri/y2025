@@ -12,6 +12,10 @@ export function Header() {
                     url: `${import.meta.env.BASE_URL}`
                 }}
                 links={[
+                    {
+                        title: "トップ",
+                        url: `${import.meta.env.BASE_URL}`
+                    },
                     /*
                     {
                         title: "お食事・お飲み物ガイド",
