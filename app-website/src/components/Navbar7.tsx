@@ -2,10 +2,9 @@
 Navibar7
 */
 
-import { Button, useMediaQuery } from "@relume_io/relume-ui";
+import { useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { RxChevronDown } from "react-icons/rx";
 
 export interface Navbar7Props {
     logo: {
