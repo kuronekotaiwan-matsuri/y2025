@@ -11,6 +11,7 @@ export interface Footer2Props {
   logo: {
     src: string;
     alt: string;
+    url: string;
   };
   links: {
     title: string;
@@ -32,7 +33,7 @@ export function Footer2(props: Footer2Props) {
         <div className="grid grid-cols-1 items-start gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
           <div className="grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:gap-x-6 sm:gap-y-12 md:gap-x-8">
             <a
-              href="#"
+              href={props.logo.url}
               className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
             >
               <img

@@ -10,6 +10,7 @@ export interface Navbar7Props {
     logo: {
         src: string;
         alt: string;
+        url: string;
     };
     links: {
         title: string;
@@ -57,7 +58,7 @@ export function Navbar7(props: Navbar7Props) {
       className="relative z-[999] flex min-h-16 w-full items-center border-b border-border-primary bg-background-primary px-[5%] md:min-h-18"
     >
       <div className="mx-auto flex size-full max-w-full items-center justify-between">
-        <a href="#">
+        <a href={props.logo.url}>
           <img
             src={props.logo.src}
             alt={props.logo.alt}

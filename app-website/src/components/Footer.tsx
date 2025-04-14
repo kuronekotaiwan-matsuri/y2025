@@ -6,31 +6,32 @@ export function Footer() {
             <Footer2
                 logo={{
                     src: "https://d22po4pjz3o32e.cloudfront.net/logo-image.svg",
-                    alt: "Logo image"
+                    alt: "Logo image",
+                    url: `${import.meta.env.BASE_URL}`,
                 }}
                 links={[
                     {
                         title: "お食事・お飲み物ガイド",
-                        url: "/food-drink-guide"
+                        url: `${import.meta.env.BASE_URL}food-drink-guide`
                     },
                     {
                         title: "出店情報",
-                        url: "/shops"
+                        url: `${import.meta.env.BASE_URL}shops`
                     },
                     {
                         title: "黒猫台湾まつりについて",
-                        url: "/about"
+                        url: `${import.meta.env.BASE_URL}about`
                     },
                     {
                         title: "お問合せ",
-                        url: "/contact-us"
+                        url: `${import.meta.env.BASE_URL}contact-us`
                     },  
                 ]}
                 socialLinks={[
                     {
                         title: "Instagram",
                         url: "https://www.instagram.com/kuronekotaiwan_matsuri/",
-                        type: "instagram"
+                        type: "instagram",
                     },
                 ]}
                 reserved="2025 黒猫台湾まつり実行委員会"
