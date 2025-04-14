@@ -61,7 +61,7 @@ export function Footer2(props: Footer2Props) {
         <div className="flex flex-col-reverse items-start pt-6 pb-4 text-sm md:justify-start md:pt-8 md:pb-0 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-col-reverse items-start md:flex-row md:gap-6 lg:items-center">
             <div className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:justify-center md:gap-x-6 md:gap-y-0 lg:text-left">
-              <p className="mt-8 md:mt-0">© {props.reserved}. 掲載内容の無断使用はご遠慮ください.</p>
+              <p className="mt-8 md:mt-0">© {props.reserved}. <br />掲載内容の無断使用はご遠慮ください.</p>
             </div>
           </div>
           <div className="mb-8 flex items-center justify-center gap-3 lg:mb-0">
