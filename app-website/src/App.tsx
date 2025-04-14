@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+//import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/home'
 import About from './pages/about'
@@ -11,7 +12,7 @@ import './App.css'
 function App() {
 
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -19,7 +20,7 @@ function App() {
         <Route path="/food-drink-guide" element={<FoodDrinkGuide />} />
         <Route path="/shops" element={<Shops />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 

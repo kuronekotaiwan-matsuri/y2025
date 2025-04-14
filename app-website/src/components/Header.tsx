@@ -24,15 +24,15 @@ export function Header() {
                     */
                     {
                         title: "出店情報",
-                        url: `${import.meta.env.BASE_URL}shops`
+                        url: `${import.meta.env.BASE_URL}#/shops`
                     },
                     {
                         title: "黒猫台湾まつりについて",
-                        url: `${import.meta.env.BASE_URL}about`
+                        url: `${import.meta.env.BASE_URL}#/about`
                     },
                     {
                         title: "お問合せ",
-                        url: `${import.meta.env.BASE_URL}contact-us`
+                        url: `${import.meta.env.BASE_URL}#/contact-us`
                     },
                 ]}
             />
