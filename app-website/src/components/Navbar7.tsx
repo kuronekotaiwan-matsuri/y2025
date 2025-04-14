@@ -65,9 +65,10 @@ export function Navbar7(props: Navbar7Props) {
         </a>
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pt-4 pb-24 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
           <div className="flex flex-col items-center lg:flex-row">
-            {props.links.map((link) => (
+            {props.links.map((link, index) => (
                 <a
                     href={link.url}
+                    key={index}
                     className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
                 >
                     {link.title}
@@ -137,8 +138,8 @@ export function Navbar7(props: Navbar7Props) {
             className="absolute top-0 right-0 left-0 block h-dvh overflow-auto border-b border-border-primary bg-background-primary px-[5%] pt-4 pb-8"
           >
             <div className="flex flex-col">
-                {props.links.map((link) => (
-                    <a href={link.url} className="block py-3 text-md">
+                {props.links.map((link, index) => (
+                    <a href={link.url} key={index} className="block py-3 text-md">
                         {link.title}
                     </a>
                 ))}
