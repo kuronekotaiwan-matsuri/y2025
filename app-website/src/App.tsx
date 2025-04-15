@@ -12,11 +12,17 @@ import usePageTracking from './utilities/usePageTracking'
 
 import './App.css'
 
-function App() {
-  usePageTracking();
 
+// usePageTrackingを使うための中間コンポーネント
+const PageTracker = () => {
+  usePageTracking();
+  return null;
+};
+
+function App() {
   return (
     <Router>
+      <PageTracker />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
