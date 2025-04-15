@@ -1,11 +1,103 @@
 import { Header } from "../../components/Header";
+import { Header49 } from "../../components/Header49";
+import { Layout18 } from "../../components/Layout18";
+import { Layout237 } from "../../components/Layout237";
+import { Gallery18 } from "../../components/Gallery18";
 import { Footer } from "../../components/Footer";
-
+import { Contact14 } from "../../components/Contact14";
 export default function About() {
     return (
         <div>
             <Header />
-            about
+            <Header49
+                heading="黒猫台湾まつりについて"
+                description="黒猫台湾まつりは、地元の経済発展とともに、台湾の文化や美味しい料理を楽しむための貴重な機会を提供します。"
+            />
+            <Layout18
+                heading="イベントの趣旨と目的"
+                listItems={[
+                    {
+                        title: "町おこしの一環として",
+                        description: "本イベントは、川崎市高津区の大山街道沿いの地域資源を活かし、商店街の賑わい創出と地域経済の活性化を目的としています。イベントの開催を通じて、来場者に地域の魅力を再発見していただくとともに、地元商店との新たな接点や交流を生み出す機会を提供します。観光客のみならず、地元住民の方々にも愛されるイベントとして、地域に根ざした継続的な取り組みを目指します。",
+                        imageUrl: "./about/community_revitalization3.png",
+                    },
+                    {
+                        title: "台湾文化普及",
+                        description: "台湾文化の魅力を、日本国内の多くの方々に届けることも本イベントの重要な目的の一つです。台湾の伝統的な食文化や工芸、言語、音楽などを体験できるコンテンツを通じて、多様な文化に対する理解と関心を育みます。日本における台湾文化の認知度向上に加え、両国間の交流促進や相互理解の深化にも寄与することを期待しています。",
+                        imageUrl: "./about/jiufen.jpg",
+                    },
+                    {
+                        title: "地域交流",
+                        description: "子どもから高齢者まで、幅広い年齢層が参加できる体験型ワークショップやトークイベント、ライブパフォーマンスを通じて、世代や国籍を越えた交流の場を創出します。また、地域住民と台湾ゆかりの出店者・アーティストとの直接的な対話や関わりが生まれることで、地域社会の多様性への理解や、相互のつながりを深める機会となることを目指しています。",
+                        imageUrl: "./about/regional_exchange.jpg",
+                    }
+                ]}
+            />
+            <Layout237
+                heading="楽しみ方いろいろ！黒猫台湾まつりの見どころ"
+                description="台湾の魅力をぎゅっと詰め込んだ黒猫台湾まつりでは、雑貨やフードの物販ブースから、台湾文化を体験できるワークショップ、そしてトークショーや音楽ライブまで、見て・食べて・体験して楽しめるコンテンツが盛りだくさん！\nお子さま連れのご家族から台湾ファンまで、誰もが楽しめる2日間です。"
+                listItems={[
+                    {
+                        title: "物販ブース",
+                        description: "台湾雑貨やフードがずらり大集合！現地の空気を感じるような手作りグッズから、台湾直伝の本格グルメまで、ここだけのアイテムに出会えます。お土産探しにもぴったり！",
+                    },
+                    {
+                        title: "ワークショップ",
+                        description: "体験して、作って、台湾をもっと好きになる！台湾結びや花文字、豆花のミニストラップ作りなど、お子さまから大人まで楽しめるワークショップが盛りだくさんです。（一部は要予約）",
+                    },
+                    {
+                        title: "物販ブース",
+                        description: "台湾カルチャーを“耳から”楽しもう！人気ポッドキャストの公開収録や、台湾好きによるトーク、音楽ライブまで盛りだくさん。気軽に立ち寄って、一緒に盛り上がろう！",
+                    },
+                ]}
+            />
+            <Gallery18
+                heading="過去の開催風景"
+                description=""
+                images={[
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 1",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 2",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 3",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 4",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 5",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 6",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 3",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 4",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 5",
+                    },
+                    {
+                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+                      alt: "Relume placeholder image 6",
+                    },
+                ]}
+            />
+            <Contact14 />
             <Footer />
         </div>
     );
