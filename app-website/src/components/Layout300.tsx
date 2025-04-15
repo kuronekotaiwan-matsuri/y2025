@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ShopDef } from "../shopDefs";
+import { ShopDef } from "../data/shops";
 import { ShopCard } from "./ShopCard";
 import { Stack, Typography, Paper, ToggleButtonGroup, ToggleButton } from "@mui/material";
 

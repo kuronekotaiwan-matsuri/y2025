@@ -10,7 +10,7 @@ import {
 } from '@mui/material';
 import { BiLogoInstagram } from "react-icons/bi";
 
-import { ShopDef } from '../shopDefs';
+import { ShopDef } from '../data/shops';
 
 export interface ShopCardProps {
     shop: ShopDef;
