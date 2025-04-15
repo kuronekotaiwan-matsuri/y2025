@@ -3,7 +3,7 @@ import { Header49 } from "../../components/Header49";
 import { Layout300 } from "../../components/Layout300";
 import { Footer } from "../../components/Footer";
 
-import { shopDefs, ShopDef } from "../../shopDefs";
+import { shopDefs, ShopDef } from "../../data/shops";
 
 
 export default function Shops() {
