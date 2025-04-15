@@ -8,9 +8,12 @@ import ContactUs from './pages/contact-us'
 import FoodDrinkGuide from './pages/food-drink-guide'
 import Shops from './pages/shops'
 
+import usePageTracking from './utilities/usePageTracking'
+
 import './App.css'
 
 function App() {
+  usePageTracking();
 
   return (
     <Router>
