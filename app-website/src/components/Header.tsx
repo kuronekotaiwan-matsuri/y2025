@@ -1,6 +1,4 @@
 import { Navbar7 } from "./Navbar7";
-//import { Navbar7_0 } from "./Navbar7_0";
-//import { Navbar7_1 } from "./Navbar7_1";
 
 export function Header() {
     return (
@@ -35,14 +33,15 @@ export function Header() {
                         url: `${import.meta.env.BASE_URL}#/contact-us`
                     },
                 ]}
+                socialLinks={[
+                    {
+                        title: "Instagram",
+                        url: "https://www.instagram.com/kuronekotaiwan_matsuri/",
+                        handle: "kuronekotaiwan_matsuri",
+                        type: "instagram",
+                    },
+                ]}
             />
-            {/*
-            <Navbar7_0
-            />
-            */}
-            {/*
-            <Navbar7_1 />
-            */}
         </>
     );
 }

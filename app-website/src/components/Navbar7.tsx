@@ -2,6 +2,13 @@
 Navibar7
 */
 
+import {
+  BiLogoFacebookCircle,
+  BiLogoInstagram,
+  BiLogoLinkedinSquare,
+  BiLogoYoutube,
+} from "react-icons/bi";
+import { FaXTwitter } from "react-icons/fa6";
 import { useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -15,6 +22,12 @@ export interface Navbar7Props {
     links: {
         title: string;
         url: string;
+    }[];
+    socialLinks: {
+      title: string;
+      type: "facebook" | "instagram" | "twitter" | "linkedin" | "youtube";
+      url: string;
+      handle: string;
     }[];
 }
 
@@ -65,16 +78,39 @@ export function Navbar7(props: Navbar7Props) {
           />
         </a>
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pt-4 pb-24 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
-          <div className="flex flex-col items-center lg:flex-row">
-            {props.links.map((link, index) => (
-                <a
-                    href={link.url}
-                    key={index}
-                    className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
-                >
-                    {link.title}
+          <div className="flex justify-between w-full">
+            <div className="flex flex-1 flex-col items-center lg:flex-row">
+              {props.links.map((link, index) => (
+                  <a
+                      href={link.url}
+                      key={index}
+                      className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+                  >
+                      {link.title}
+                  </a>
+              ))}
+            </div>
+            <div className="flex flex-col items-center justify-end lg:flex-row">
+              {props.socialLinks.map((socialLink, index) => (
+                <a href={socialLink.url} key={index} className="block py-3 text-md">
+                  {socialLink.type === "facebook" && (
+                    <BiLogoFacebookCircle className="size-6" />
+                  )}
+                  {socialLink.type === "instagram" && (
+                    <BiLogoInstagram className="size-6" />
+                  )}
+                  {socialLink.type === "twitter" && (
+                    <FaXTwitter className="size-6 p-0.5" />
+                  )}
+                  {socialLink.type === "linkedin" && (
+                    <BiLogoLinkedinSquare className="size-6" />
+                  )}
+                  {socialLink.type === "youtube" && (
+                    <BiLogoYoutube className="size-6" />
+                  )}
                 </a>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
         <button
@@ -144,6 +180,42 @@ export function Navbar7(props: Navbar7Props) {
                         {link.title}
                     </a>
                 ))}
+            </div>
+            <div className="flex flex-col">
+              {props.socialLinks.map((socialLink, index) => (
+                <a href={socialLink.url} key={index} className="block py-3 text-md">
+                  {socialLink.type === "facebook" && (
+                    <div className="flex items-center gap-2">
+                      <BiLogoFacebookCircle className="size-6" />
+                      <span>{socialLink.handle}</span>
+                    </div>
+                  )}
+                  {socialLink.type === "instagram" && (
+                    <div className="flex items-center gap-2">
+                      <BiLogoInstagram className="size-6" />
+                      <span>@{socialLink.handle}</span>
+                    </div>
+                  )}
+                  {socialLink.type === "twitter" && (
+                    <div className="flex items-center gap-2">
+                      <FaXTwitter className="size-6 p-0.5" />
+                      <span>@{socialLink.handle}</span>
+                    </div>
+                  )}
+                  {socialLink.type === "linkedin" && (
+                    <div className="flex items-center gap-2">
+                      <BiLogoLinkedinSquare className="size-6" />
+                      <span>{socialLink.handle}</span>
+                    </div>
+                  )}
+                  {socialLink.type === "youtube" && (
+                    <div className="flex items-center gap-2">
+                      <BiLogoYoutube className="size-6" />
+                      <span>{socialLink.handle}</span>
+                    </div>
+                  )}
+                </a>
+              ))}
             </div>
           </motion.div>
         </motion.div>
