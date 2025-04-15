@@ -13,8 +13,14 @@ export function Contact14() {
             イベントに関する詳細はお気軽にご連絡ください。
           </p>
         </div>
-        <div className="grid auto-cols-fr grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-[0.5fr_1fr] md:gap-x-2 md:gap-y-16 justify-between">
-          <div className="grid auto-cols-fr grid-cols-1 gap-x-4 gap-y-10">
+        <div className="
+          grid auto-cols-fr grid-cols-1 gap-x-12 gap-y-12
+          md:grid-cols-[minmax(280px,0.5fr)_1fr]
+          md:gap-x-2 md:gap-y-16 justify-between"
+        >
+          <div className="
+            grid auto-cols-fr grid-cols-1 gap-x-4 gap-y-10
+          ">
             <div>
               <div className="mb-3 md:mb-4">
                 <BiLogoInstagram className="size-8" />
@@ -50,11 +56,14 @@ export function Contact14() {
             </div>
           </div>
           <div
-            className="md:w-[321.6px] lg:w-auto justify-self-end"
+            className="relative aspect-square w-full min-w-0"
           >
             <iframe
               src="https://www.google.com/maps/d/u/0/embed?mid=1KbGoKJO7FHHM2dcmUZ0XpOAWMx8K5Ck&ehbc=2E312F"
-              width="640" height="480"
+              className="absolute inset-0 w-full h-full border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
