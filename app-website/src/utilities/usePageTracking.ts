@@ -14,6 +14,7 @@ const usePageTracking = () => {
     if (window.gtag) {
       window.gtag("config", "G-PQ0WELTF8R", {
         page_path: location.pathname + location.search,
+        anonymize_ip: true,
       });
     }
   }, [location]);
