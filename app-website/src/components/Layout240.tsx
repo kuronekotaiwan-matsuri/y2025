@@ -40,9 +40,9 @@ export function Layout240(props: Layout240Props) {
               <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">
                 {description.title}
               </h3>
-              <p>
+              <div>
                 <ReactMarkdown>{description.description}</ReactMarkdown>
-              </p>
+              </div>
             </div>
           ))}
         </div>

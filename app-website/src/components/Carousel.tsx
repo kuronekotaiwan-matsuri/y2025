@@ -28,8 +28,8 @@ export const Carousel = ({ slides }: CarouselProps) => {
         loop
         style={{ borderRadius: 12, paddingBottom: 40 }}
       >
-        {slides.map((slide) => (
-          <SwiperSlide key={slide.label}>
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index}>
             <Box
               component="img"
               src={slide.imgPath}

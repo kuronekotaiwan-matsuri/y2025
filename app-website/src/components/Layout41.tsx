@@ -21,9 +21,9 @@ export const Layout41 = (props: Layout41Props) => {
           </div>
           <div>
             {description.map((description, index) => (
-                <p key={index} className="mb-3 md:mb-4">
+                <div key={index} className="mb-3 md:mb-4">
                     <ReactMarkdown>{description}</ReactMarkdown>
-                </p>
+                </div>
             ))}
           </div>
         </div>
