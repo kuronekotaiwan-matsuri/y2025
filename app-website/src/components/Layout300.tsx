@@ -42,7 +42,7 @@ export function Layout300(props: Layout300Props) {
       <div className="container">
         <div className="flex flex-col items-start">
           <div className="mx-auto mb-12 w-full max-w-lg items-start justify-between gap-5 md:mb-18 lg:mb-20">
-            <h2 className="mb-5 text-center text-5xl font-bold md:mb-6">
+            <h2 className="mb-5 text-center text-4xl font-bold md:mb-5">
               {props.heading}
             </h2>
           </div>

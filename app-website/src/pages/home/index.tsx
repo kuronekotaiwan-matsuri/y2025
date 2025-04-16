@@ -31,11 +31,11 @@ export default function Home() {
                 ]}
             />
             <Layout240
-                title="台湾文化を体験し、魅力を感じる特別な機会です。"
+                title="台湾文化を体験し、魅力を感じる特別な機会"
                 descriptions={[
                     {
                         title: "台湾の豊かな文化と共に、美味しい料理や飲み物",
-                        description: "多彩な台湾フードを味わい、文化を感じることができます。",
+                        description: "**多彩な台湾フードを味わいながら、現地さながらの雰囲気を体験できます。** 豆花や台湾茶に加え、冷凍で本格的な魯肉をお持ち帰りできるお店も登場。ご自宅でも台湾の味を楽しめます。お子様から大人まで楽しめるメニューをご用意しています。",
                         image: {
                             src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
                             alt: "Relume placeholder image",
@@ -43,7 +43,7 @@ export default function Home() {
                     },
                     {
                         title: "参加者同士の交流",
-                        description: "参加者同士がつながり合い、親交を深めることができます。",
+                        description: "**参加者同士がつながり合い、台湾好き同士での親交を深めることができます。** 会話が生まれやすいワークショップやトークイベントもあり、偶然の出会いが新しい旅のヒントになるかもしれません。リピーターさんも初参加の方もウェルカムな雰囲気です。",
                         image: {
                             src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
                             alt: "Relume placeholder image",
@@ -51,7 +51,7 @@ export default function Home() {
                     },
                     {
                         title: "地域の商店街を活性化し、賑わいを創出",
-                        description: "地元のビジネスを支援し、地域全体の活性化に貢献します。",
+                        description: "**地元のビジネスを支援し、地域全体の活性化に貢献します。** イベントの開催により、多くの来場者が大山街道を訪れ、普段の商店街にも新たな注目が集まります。台湾文化との融合による「にぎわい」が、新しいまちの魅力づくりにもつながります。",
                         image: {
                             src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
                             alt: "Relume placeholder image",

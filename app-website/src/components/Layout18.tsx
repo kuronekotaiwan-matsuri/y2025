@@ -1,4 +1,6 @@
 
+import ReactMarkdown from "react-markdown";
+
 interface Layout18Props {
   heading: string;
   listItems: {
@@ -48,7 +50,7 @@ export function Layout18(props: Layout18Props) {
                 </div>
                 <div
                 >
-                  {item.description}
+                  <ReactMarkdown>{item.description}</ReactMarkdown>
                 </div>
               </div>
               

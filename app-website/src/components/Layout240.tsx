@@ -4,6 +4,8 @@
 //import React from "react";
 //import { RxChevronRight } from "react-icons/rx";
 
+import ReactMarkdown from "react-markdown";
+
 export interface Layout240Props {
   title: string;
   descriptions: {
@@ -38,7 +40,9 @@ export function Layout240(props: Layout240Props) {
               <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">
                 {description.title}
               </h3>
-              <p>{description.description}</p>
+              <p>
+                <ReactMarkdown>{description.description}</ReactMarkdown>
+              </p>
             </div>
           ))}
         </div>

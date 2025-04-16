@@ -5,7 +5,7 @@ export function Faq4() {
     <section id="kuroneko-faq4" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
-          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6">
+          <h2 className="rb-5 mb-5 text-4xl font-bold md:mb-5">
             よくある質問とご案内
           </h2>
           <p className="md:text-md">
