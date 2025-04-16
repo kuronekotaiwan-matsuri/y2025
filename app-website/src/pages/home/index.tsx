@@ -43,7 +43,7 @@ export default function Home() {
                     },
                     {
                         title: "参加者同士の交流",
-                        description: "**参加者同士がつながり合い、台湾好き同士での親交を深めることができます。** 会話が生まれやすいワークショップやトークイベントもあり、偶然の出会いが新しい旅のヒントになるかもしれません。リピーターさんも初参加の方もウェルカムな雰囲気です。",
+                        description: "**参加者同士がつながり合い、台湾好き同士での親交を深めることができます。** 会話が生まれやすいワークショップやトークイベントもあり、偶然の出会いが新しい旅のヒントになるかもしれません。リピーターさんも初参加の方も、台湾をまだ知らない方も、みんなウェルカムな雰囲気です。",
                         image: {
                             src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
                             alt: "Relume placeholder image",
