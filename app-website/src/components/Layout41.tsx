@@ -17,7 +17,7 @@ export const Layout41 = (props: Layout41Props) => {
       <div className="container">
         <div className=" grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20">
           <div>
-            <h2 className="text-4xl font-bold md:text-6xl">{heading}</h2>
+            <h2 className="text-4xl font-bold">{heading}</h2>
           </div>
           <div>
             {description.map((description, index) => (
