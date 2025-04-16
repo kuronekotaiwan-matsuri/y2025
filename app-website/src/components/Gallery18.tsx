@@ -1,26 +1,22 @@
 import { Carousel } from "../components/Carousel";
-
-
-type ImageProps = {
-  src: string;
-  alt?: string;
-};
+import { ImageProps, photos } from "../data/photos";
 
 type Props = {
   heading: string;
   description: string;
-  images: ImageProps[];
 };
 
 export type Gallery18Props = React.ComponentPropsWithoutRef<"section"> & Partial<Props>;
 
 export const Gallery18 = (props: Gallery18Props) => {
-  const { heading, description, images } = {
+  const { heading, description } = {
     ...Gallery18Defaults,
     ...props,
   };
 
-  
+  // photosをランダムにシャッフル
+  const shuffledPhotos = photos.sort(() => Math.random() - 0.5);
+  const images: ImageProps[] = shuffledPhotos;
 
   return (
     <section id="kuroneko-gallery18">
@@ -51,30 +47,4 @@ export const Gallery18 = (props: Gallery18Props) => {
 export const Gallery18Defaults: Props = {
   heading: "Image Gallery",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  images: [
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 1",
-    },
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 2",
-    },
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 3",
-    },
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 4",
-    },
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 5",
-    },
-    {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 6",
-    },
-  ],
 };

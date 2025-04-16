@@ -54,48 +54,6 @@ export default function About() {
             <Gallery18
                 heading="過去の開催風景"
                 description=""
-                images={[
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 1",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 2",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 3",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 4",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 5",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 6",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 3",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 4",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 5",
-                    },
-                    {
-                      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-                      alt: "Relume placeholder image 6",
-                    },
-                ]}
             />
             <Contact14 />
             <Footer />

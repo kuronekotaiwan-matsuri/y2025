@@ -23,8 +23,8 @@ export const Carousel = ({ slides }: CarouselProps) => {
         spaceBetween={20}
         slidesPerView={1}
         navigation
-        pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
+        pagination={{ renderBullet: (_index, _className) => "" }}
+        autoplay={{ delay: 4000 }}
         loop
         style={{ borderRadius: 12, paddingBottom: 40 }}
       >
