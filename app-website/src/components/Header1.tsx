@@ -15,7 +15,7 @@ export function Header1(props: Header1Props) {
       <div className="container">
         <div className="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center">
           <div>
-            <h1 className="mb-5 text-6xl font-bold">
+            <h1 className="mb-5 text-5xl font-bold">
               {props.title}
             </h1>
             <p className="md:text-md">

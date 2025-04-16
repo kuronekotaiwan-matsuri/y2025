@@ -3,6 +3,7 @@ import { Footer } from "../../components/Footer";
 import { Header1 } from "../../components/Header1";
 import { Header44 } from "../../components/Header44";
 import { Layout240 } from "../../components/Layout240";
+import { Layout41 } from "../../components/Layout41";
 import { Gallery18 } from "../../components/Gallery18";
 import { Contact14 } from "../../components/Contact14";
 
@@ -57,6 +58,17 @@ export default function Home() {
                         }   
                     }
                 ]}
+            />
+            <Layout41
+                heading="イベントへの“想い”"
+                description={
+                    [
+                        "**黒猫台湾まつり2025** は、台湾を愛してやまない有志たちが心を込めて企画したイベントです。" +
+                        "​台湾に住んでいた経験がある人、台湾にルーツを持つ人、何度も台湾を訪れてその魅力に惹かれた人たちが集まり、**台湾の文化や美味しい食べ物、温かい人々の魅力を日本の皆さんに伝えたい**という想いから生まれました。​",
+                        "商業的な大規模イベントではなく、**台湾への深い愛情と敬意を持つ私たち**が、自分たちの手で作り上げる、小さいながらも愛にあふれた手作りの祭りです。" +
+                        "​台湾を知っている人も、初めて触れる人も、ぜひこの機会に**台湾の魅力を体感**してください。",
+                    ]
+                }
             />
             <Gallery18
                 heading="過去の開催風景"
