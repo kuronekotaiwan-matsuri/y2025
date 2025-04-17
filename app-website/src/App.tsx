@@ -7,6 +7,7 @@ import About from './pages/about'
 import ContactUs from './pages/contact-us'
 import FoodDrinkGuide from './pages/food-drink-guide'
 import Shops from './pages/shops'
+import Stamp from './pages/stamp'
 
 import usePageTracking from './utilities/usePageTracking'
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/food-drink-guide" element={<FoodDrinkGuide />} />
         <Route path="/shops" element={<Shops />} />
+        <Route path="/stamp" element={<Stamp />} />
       </Routes>
     </Router>
   )

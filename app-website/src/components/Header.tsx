@@ -32,6 +32,10 @@ export function Header() {
                         title: "お問合せ",
                         url: `${import.meta.env.BASE_URL}#/contact-us`
                     },
+                    {
+                        title: "スタンプラリー",
+                        url: `${import.meta.env.BASE_URL}#/stamp`
+                    },
                 ]}
                 socialLinks={[
                     {
