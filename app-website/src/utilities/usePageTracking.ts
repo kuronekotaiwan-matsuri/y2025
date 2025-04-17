@@ -12,8 +12,11 @@ const usePageTracking = () => {
 
   useEffect(() => {
     if (window.gtag) {
+      const pagePath = location.hash
+        ? location.hash.replace(/^#/, '')  // HashRouter 対応
+        : location.pathname + location.search;
       window.gtag("config", "G-PQ0WELTF8R", {
-        page_path: location.pathname + location.search,
+        page_path: pagePath,
         anonymize_ip: true,
       });
     }
