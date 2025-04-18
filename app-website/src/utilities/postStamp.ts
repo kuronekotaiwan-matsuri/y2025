@@ -1,6 +1,6 @@
 // スタンプ情報を、GASサーバーへ非同期でPOSTする
 
-const GAS_URL = "https://script.google.com/macros/s/AKfycbz-vhPl5wNgBOYIH4amWBJDA52g_HgU1zHo0u4WoEPdQl15eUZf80E11ju5oD78cjLE/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbzM7dAPaN9Arm17RVl52K2VIrXwVWmUVQ31GLrFN5JzTDr4av1_EkUWZa1LQxBH7zo4/exec";
 
 export const postStamp = (userId: string, stampId: string) => {
     const data = {
