@@ -1,5 +1,4 @@
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
+import { PageLayout } from "../../components/PageLayout";
 import { Header1 } from "../../components/Header1";
 import { Header44 } from "../../components/Header44";
 import { Layout240 } from "../../components/Layout240";
@@ -9,8 +8,7 @@ import { Contact14 } from "../../components/Contact14";
 
 export default function Home() {
     return (
-        <div>
-            <Header />
+        <PageLayout title="台湾まるごと体験！黒猫台湾まつり2025 公式サイト | 5/31(土) 6/1(日) 開催">
             <Header1
                 title="黒猫台湾まつりで台湾文化を体験しよう"
                 description="黒猫台湾まつりでは、台湾の美味しい料理や飲み物、文化を楽しむことができます。地域の人々との交流を通じて、台湾の魅力を存分に味わいましょう。"
@@ -75,7 +73,6 @@ export default function Home() {
                 description=""
             />
             <Contact14 />
-            <Footer />
-        </div>
+        </PageLayout>
     )
 }

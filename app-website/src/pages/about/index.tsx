@@ -1,14 +1,12 @@
-import { Header } from "../../components/Header";
+import { PageLayout } from "../../components/PageLayout";
 import { Header49 } from "../../components/Header49";
 import { Layout18 } from "../../components/Layout18";
 import { Layout237 } from "../../components/Layout237";
 import { Gallery18 } from "../../components/Gallery18";
-import { Footer } from "../../components/Footer";
 import { Contact14 } from "../../components/Contact14";
 export default function About() {
     return (
-        <div>
-            <Header />
+        <PageLayout title="黒猫台湾まつりについて | 黒猫台湾まつり2025">
             <Header49
                 heading="黒猫台湾まつりについて"
                 description="黒猫台湾まつりは、地元の経済発展とともに、台湾の文化や美味しい料理を楽しむための貴重な機会を提供します。"
@@ -56,7 +54,6 @@ export default function About() {
                 description=""
             />
             <Contact14 />
-            <Footer />
-        </div>
+        </PageLayout>
     );
 }

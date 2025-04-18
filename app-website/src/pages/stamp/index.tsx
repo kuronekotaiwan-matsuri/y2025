@@ -2,17 +2,15 @@
 スタンプカード
 */
 
-import { Header } from "../../components/Header";
+import { PageLayout } from "../../components/PageLayout";
 import { Header49 } from "../../components/Header49";
 import { StampCard } from "../../components/StampCard";
 import { Layout41Copy } from "../../components/Layout41Copy";
-import { Footer } from "../../components/Footer";
 
 
 export default function Stamp() {
     return (
-        <div>
-            <Header />
+        <PageLayout title="スタンプラリーで楽しもう！ | 黒猫台湾まつり2025">
             <Header49
                 heading="スタンプラリーで楽しさ倍増！"
                 description="黒猫台湾まつりでは、参加するたびにワクワクがたまるスタンプカードをご用意しています。出店を巡ってスタンプを集め、素敵な特典をゲットしましょう！"
@@ -32,7 +30,6 @@ export default function Stamp() {
                     ]
                 }
             />
-            <Footer />
-        </div>
+        </PageLayout>
     );
 }

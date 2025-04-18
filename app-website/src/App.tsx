@@ -1,4 +1,3 @@
-//import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { ScrollToTop } from './components/ScrollToTop'
 
@@ -9,21 +8,12 @@ import FoodDrinkGuide from './pages/food-drink-guide'
 import Shops from './pages/shops'
 import Stamp from './pages/stamp'
 
-import usePageTracking from './utilities/usePageTracking'
-
 import './App.css'
 
-
-// usePageTrackingを使うための中間コンポーネント
-const PageTracker = () => {
-  usePageTracking();
-  return null;
-};
 
 function App() {
   return (
     <Router>
-      <PageTracker />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
