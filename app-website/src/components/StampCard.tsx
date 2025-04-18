@@ -11,6 +11,7 @@ import {
     //checkCookieEnabled,
 } from "../utilities/cookieUtils";
 import { stampCard, stampDefs } from "../data/stamps";
+import { postStamp } from "../utilities/postStamp";
 
 // 新しいスタンプを押したときの初期サイズ
 const NEW_STAMP_INITIAL_SCALE = 5.0;
@@ -52,7 +53,7 @@ export function StampCard() {
             addNewStamp(newStampId);
 
             // 新しいスタンプ情報を、別のサーバーへPOST
-            //postStamp(cookieUserId, newStampId);
+            postStamp(userId, newStampId);
             
             //// 新しいスタンプの初期サイズを計算
             //const newStampShrinkInitialStyle: React.CSSProperties = {
