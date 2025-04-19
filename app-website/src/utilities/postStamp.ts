@@ -38,8 +38,7 @@ export const postStamp = (userId: string, stampId: string) => {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(data),
-      mode: "cors"
+      body: JSON.stringify(data)
     })
     .then(res => res.text())
     .then(text => console.log(text))
