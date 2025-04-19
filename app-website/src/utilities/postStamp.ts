@@ -5,16 +5,20 @@ const GAS_URL = "https://script.google.com/macros/s/AKfycbxMBCCxug018E3fb9V0dEVG
 
 
 export const postStamp = (userId: string, stampId: string) => {
-    const data = {
-        uuid: userId,
-        stamp_id: stampId
-    };
+    //const data = {
+    //    uuid: userId,
+    //    stamp_id: stampId
+    //};
+    const data = new URLSearchParams();
+    data.append("uuid", userId);
+    data.append("stamp_id", stampId);
     fetch(GAS_URL, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data),
+        //headers: {
+        //  "Content-Type": "application/json"
+        //},
+        //body: JSON.stringify(data),
+        body: data,
         mode: "cors"
       })
       .then(res => res.text())
