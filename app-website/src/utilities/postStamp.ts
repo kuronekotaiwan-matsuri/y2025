@@ -1,7 +1,8 @@
 // スタンプ情報を、GASサーバーへ非同期でPOSTする
 
 //const GAS_URL12 = "https://script.google.com/macros/s/AKfycbwdtw-0f-cucTO7XFCVeCuLLiof5b9mmu5U89tu1w-xabkNNy8Dv-6vso5R6A60u2tI/exec";
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxMBCCxug018E3fb9V0dEVGRd2_wjwfliGkcRqN0olQVqPEcpk-8knmVQoMA6hW6P15/exec";
+//const GAS_URL13 = "https://script.google.com/macros/s/AKfycbxMBCCxug018E3fb9V0dEVGRd2_wjwfliGkcRqN0olQVqPEcpk-8knmVQoMA6hW6P15/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxTBPqHIilhjObUQ1o67MnA1j0owBWrqXriGETDcikG2KzN7ufVtkeCuLzqs300lylO/exec";
 
 
 export const postStamp = (userId: string, stampId: string) => {
