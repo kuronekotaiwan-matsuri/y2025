@@ -70,7 +70,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "麺線屋formosa",
-        description: "冷凍麺線、冷凍魯肉、ラー油などを販売。店舗では麺線などのイートイン！\n2号店は魯味(ルーウェイ)も楽しめます！",
+        description: "冷凍の麺線、冷凍魯肉、ラー油などを販売。店舗は麺線等のイートイン！\n2号店は魯味(ルーウェイ)も。",
         shopImageUrl: "./shops/formosa.cafe2015.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: true,
@@ -122,7 +122,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "dea Roselle",
-        description: "ローゼルティーやドライローゼル、洛神酥、月餅、紅烏龍を販売！",
+        description: "ローゼルティーや紅烏龍茶、ドライローゼル、洛神酥など。特性月餅は３種類に！",
         shopImageUrl: "./shops/dea_roselle_asmile.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: true,
@@ -148,7 +148,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "莉婷子 riteco",
-        description: "台湾のおいしい、楽しいをお届けする台湾愛好家。\n台湾雑貨ガチャに台湾茶や愛玉檸檬汁のドリンクなど販売します。",
+        description: "台湾のおいしい、楽しいをお届けする台湾愛好家。\n台湾雑貨ガチャに台湾茶や愛玉檸檬汁のドリンクなど販売。",
         shopImageUrl: "./shops/riteco.store.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: true,
@@ -161,7 +161,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "FILO",
-        description: "グッドデザイン受賞台湾製リュックと新作を販売！作者も来日参加。",
+        description: "グッドデザイン受賞受賞、台湾メイドの名品リュックを試作とともに紹介。作者も来日参加。",
         shopImageUrl: "./shops/aogu_daocao.jpg",
         openDates: ["5/31"],
         hasMerchandise: true,
@@ -200,7 +200,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "イラストレーター佐々木千絵",
-        description: "好きな具材をトッピングして約5cmのミニ豆花ストラップを作ろう！",
+        description: "好きな具材をトッピングして約5cmのミニ豆花ストラップを作ろう！（予約不要）",
         shopImageUrl: "./shops/chie_sasa.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: false,
@@ -239,11 +239,11 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "芽実",
-        description: "花文字のワークショップは珍しいので是非この機会に！実演販売1文字500色紙代200円",
+        description: "花文字の実演販売です。1文字500円（色紙代200円）",
         shopImageUrl: "./shops/me.gumi418.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: true,
-        hasWorkshop: true,
+        hasWorkshop: false,
         requiresReservation: true,
         mapNumber: "8-E",
         instagramHandle: "me.gumi418",
@@ -252,7 +252,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "快子好好 指吸快子",
-        description: "刺繍モチーフにビーズでデコレーションして台湾モチーフのチャームを作ります。\n今年のモチーフは台湾ビールとタピオカ。お好きな方をお選びください。 ￥1,800/１つ",
+        description: "刺繍モチーフにビーズでデコレーション。台湾ビールまたはタピオカを選んでチャーム作りができます。",
         shopImageUrl: "./shops/yubiyubiquilt.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: false,
@@ -265,7 +265,7 @@ export const shopDefs: ShopDef[] = [
     },
     {
         shopName: "菓子屋chercheuses",
-        description: "シェルシューズの喫茶でお菓子教室とお茶会!",
+        description: "シェルシューズの喫茶でお菓子教室とお茶会!(※ワークショップは5/31のみ)",
         shopImageUrl: "./shops/chercheuses_.jpg",
         openDates: ["5/31", "6/1"],
         hasMerchandise: true,
