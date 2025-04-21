@@ -7,7 +7,7 @@ import ContactUs from './pages/contact-us'
 import FoodDrinkGuide from './pages/food-drink-guide'
 import Shops from './pages/shops'
 import Stamp from './pages/stamp'
-
+import Member from './pages/member'
 import './App.css'
 
 
@@ -22,6 +22,7 @@ function App() {
         <Route path="/food-drink-guide" element={<FoodDrinkGuide />} />
         <Route path="/shops" element={<Shops />} />
         <Route path="/stamp" element={<Stamp />} />
+        <Route path="/member" element={<Member />} />
       </Routes>
     </Router>
   )

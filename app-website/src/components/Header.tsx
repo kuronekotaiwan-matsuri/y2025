@@ -29,6 +29,10 @@ export function Header() {
                         url: `${import.meta.env.BASE_URL}#/about`
                     },
                     {
+                        title: "運営メンバー",
+                        url: `${import.meta.env.BASE_URL}#/member`
+                    },
+                    {
                         title: "お問合せ",
                         url: `${import.meta.env.BASE_URL}#/contact-us`
                     },
