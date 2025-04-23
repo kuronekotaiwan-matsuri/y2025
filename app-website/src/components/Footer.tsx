@@ -5,7 +5,7 @@ export function Footer() {
         <>
             <Footer2
                 logo={{
-                    src: "./logo.png",
+                    src: "./kuroneko_icon.png",
                     alt: "黒猫台湾まつり",
                     url: `${import.meta.env.BASE_URL}`,
                 }}

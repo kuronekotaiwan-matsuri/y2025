@@ -40,7 +40,7 @@ export function Footer2(props: Footer2Props) {
                 src={props.logo.src}
                 alt={props.logo.alt}
                 style={{
-                  width: "250px",
+                  width: "120px",
                   height: "auto"
                 }}
               />
