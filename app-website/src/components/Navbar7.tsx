@@ -88,7 +88,7 @@ export function Navbar7(props: Navbar7Props) {
                   <a
                       href={link.url}
                       key={index}
-                      className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
+                      className="relative block w-auto py-3 text-md lg:inline-block lg:px-3 lg:py-6 lg:text-base"
                   >
                       {link.title}
                   </a>
