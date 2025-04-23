@@ -2,7 +2,7 @@
 export const stampCard = {
     id: "stamp_card",
     name: "スタンプカード",
-    image: "./stamp/kuroneko_stump＿daisi.png",
+    image: "./stamp/kuroneko_stump_daisi.png",
 };
 
 export const stampDefs: {
@@ -33,7 +33,7 @@ export const stampDefs: {
     },
     "present": {
         name: "プレゼント",
-        image: "./stamp/talkies.png",
+        image: "./stamp/kuroneko_stump_douhwa.png",
     },
     "talkies": {
         name: "トーキーズ",
