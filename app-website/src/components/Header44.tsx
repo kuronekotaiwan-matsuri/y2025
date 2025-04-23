@@ -20,8 +20,8 @@ export function Header44(props: Header44Props) {
           </h2>
           <div className="grid grid-cols-1 gap-y-5">
             {props.descriptions.map((description, index) => (
-              <div key={index} className="grid gap-x-4" style={{ gridTemplateColumns: 'auto 1fr' }}>
-                <div className="font-bold text-right w-20">{description.title}</div>
+              <div key={index} className="grid gap-x-4" style={{ gridTemplateColumns: '110px 1fr' }}>
+                <div className="font-bold text-right">{description.title}</div>
                 <div>
                   {description.description}
                   {description.mapUrl && (
