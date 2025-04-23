@@ -13,7 +13,7 @@ export default function Home() {
                 title="黒猫台湾まつりで台湾文化を体験しよう"
                 description="黒猫台湾まつりでは、台湾の美味しい料理や飲み物、文化を楽しむことができます。地域の人々との交流を通じて、台湾の魅力を存分に味わいましょう。"
                 image={{
-                    src: "./home/kuroneko_taiwan_top_ogp.jpeg",
+                    src: "./home/kuroneko_taiwan_top.png",
                     alt: "黒猫台湾まつり トップ画像",
                 }}
             />
