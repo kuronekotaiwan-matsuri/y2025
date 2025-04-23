@@ -5,7 +5,6 @@ import { Button } from "@mui/material";
 interface Layout16Props {
   title: string;
   description: string;
-  image: string;
   benefits: string[];
 }
 
@@ -35,8 +34,8 @@ export function Layout16(props: Layout16Props) {
                 <li key={index} className="flex self-start">
                   <div className="mr-4 flex-none self-start">
                     <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                      alt="Relume logo 1"
+                      src="./neko_face.png"
+                      alt="dot"
                       className="size-6"
                     />
                   </div>
@@ -56,9 +55,9 @@ export function Layout16(props: Layout16Props) {
           </div>
           <div>
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="./member/volunteer.jpg"
               className="w-full rounded-image object-cover"
-              alt="Relume placeholder image"
+              alt="ボランティア募集"
             />
           </div>
         </div>

@@ -39,6 +39,10 @@ export function Footer2(props: Footer2Props) {
               <img
                 src={props.logo.src}
                 alt={props.logo.alt}
+                style={{
+                  width: "250px",
+                  height: "auto"
+                }}
               />
             </a>
             <div className="flex flex-col items-start justify-start">

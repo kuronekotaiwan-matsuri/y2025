@@ -5,8 +5,8 @@ export function Header() {
         <>
             <Navbar7
                 logo={{
-                    src: "https://d22po4pjz3o32e.cloudfront.net/logo-image.svg",
-                    alt: "Logo image",
+                    src: "./logo.png",
+                    alt: "黒猫台湾まつり",
                     url: `${import.meta.env.BASE_URL}`
                 }}
                 links={[

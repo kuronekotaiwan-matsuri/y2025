@@ -30,11 +30,15 @@ export function Layout240(props: Layout240Props) {
         <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           {props.descriptions.map((description, index) => (
             <div key={index} className="flex w-full flex-col items-center text-center">
-              <div className="rb-6 mb-6 md:mb-8">
+              <div className="rb-6 mb-6 md:mb-8 w-72 h-36 overflow-hidden flex items-center">
                 <img
                   src={description.image.src}
                   alt={description.image.alt}
                   className="rounded-image"
+                  style={{
+                    width: "100%",
+                    height: "auto"
+                  }}
                 />
               </div>
               <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">

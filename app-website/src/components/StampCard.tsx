@@ -112,23 +112,12 @@ export function StampCard() {
                             src={stampDefs[stampId].image}
                             alt={stampDefs[stampId].name}
                             className="absolute"
-                            /*
-                            style={
-                                (newStampId && (newStampId === stampId))
-                                    ? {
-                                        ...shrinkInitialStyle,
-                                    }
-                                    : {
-                                        left: `${stampDefs[stampId].x}%`,
-                                        top: `${stampDefs[stampId].y}%`,
-                                        width: `${stampDefs[stampId].width}%`,
-                                    }
-                            }*/
-                           style={{
-                            left: `${stampDefs[stampId].x}%`,
-                            top: `${stampDefs[stampId].y}%`,
-                            width: `${stampDefs[stampId].width}%`,
-                        }}
+                            style={{
+                                left: "0px",
+                                top: "0px",
+                                filter: "drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.6))",
+                                transform: `rotate(-1deg)`
+                            }}
                         />
                     )
                 ))}

@@ -28,8 +28,8 @@ export function Layout237(props: Layout237Props) {
               <div className="flex w-full flex-col items-center text-center" key={index}>
                 <div className="rb-5 mb-5 md:mb-6">
                   <img
-                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                    alt="Relume logo 1"
+                    src="./neko_face.png"
+                    alt="dot"
                     className="size-12"
                   />
                 </div>

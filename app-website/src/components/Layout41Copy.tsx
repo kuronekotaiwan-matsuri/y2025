@@ -23,8 +23,8 @@ export const Layout41Copy = (props: Layout41CopyProps) => {
             {description.map((description, index) => (
                 <div key={index} className="mb-3 md:mb-4 flex gap-2">
                   <img
-                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                    alt="Relume logo 1"
+                    src="./neko_face.png"
+                    alt="dot"
                     className="size-6"
                   />
                   <div className="text-lg font-bold">

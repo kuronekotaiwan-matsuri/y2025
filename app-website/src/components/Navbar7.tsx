@@ -75,6 +75,10 @@ export function Navbar7(props: Navbar7Props) {
           <img
             src={props.logo.src}
             alt={props.logo.alt}
+            style={{
+              width: "200px",
+              height: "auto"
+            }}
           />
         </a>
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pt-4 pb-24 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">

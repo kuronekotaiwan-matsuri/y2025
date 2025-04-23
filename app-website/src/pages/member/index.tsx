@@ -16,7 +16,6 @@ export default function Member() {
             <Layout16
                 title="ボランティア参加のメリットと募集"
                 description="台湾の魅力がぎゅっと詰まった「黒猫台湾まつり」を一緒に盛り上げてくれる仲間を募集します。"
-                image="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
                 benefits={[
                     "**台湾文化に触れ**、本場のグルメや雑貨、音楽、ワークショップを間近で体験！",
                     "**地域の方々や来場者と交流しながら、町おこし** に貢献できます。",
