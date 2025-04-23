@@ -22,8 +22,11 @@ export default function Home() {
                 descriptions={[
                     {title:"開催日", description:"2025年5月31日と6月1日"},
                     {title:"開催場所", description:"川崎市高津区（大山街道沿いの商店や中庭）"},
-                    {title:"メイン会場・総合案内", description:"〒213-0002 神奈川県川崎市高津区二子２丁目８−８ ウッディモアル　駄菓子の木村屋"},
-                    // https://maps.app.goo.gl/En2HiiN8Xxkav8616 なんとか入れられないか...
+                    {
+                        title:"メイン会場・総合案内",
+                        description:"〒213-0002 神奈川県川崎市高津区二子２丁目８−８ ウッディモアル　駄菓子の木村屋",
+                        mapUrl: "https://maps.app.goo.gl/En2HiiN8Xxkav8616",
+                    },
                     {title:"開催時間", description:"10:00-18:00"},
                     {title:"参加費", description:"無料"},
                 ]}
@@ -35,7 +38,7 @@ export default function Home() {
                         title: "台湾の豊かな文化と共に、美味しい料理や飲み物",
                         description: "**多彩な台湾フードを味わいながら、現地さながらの雰囲気を体験できます。** 豆花や台湾茶に加え、冷凍で本格的な魯肉をお持ち帰りできるお店も登場。ご自宅でも台湾の味を楽しめます。お子様から大人まで楽しめるメニューをご用意しています。",
                         image: {
-                            src: "./home/mensen.JPG",
+                            src: "./home/mensen.jpg",
                             alt: "台湾の食文化の代表の麺線",
                         }
                     },
