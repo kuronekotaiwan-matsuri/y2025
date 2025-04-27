@@ -30,6 +30,12 @@ export default function Home() {
                     {title:"開催時間", description:"10:00-18:00"},
                     {title:"参加費", description:"無料"},
                 ]}
+                image={{
+                    heading: "🌟チラシはこちら(PDFで開きます)",
+                    src: "./home/flyer_thumbnail.png",
+                    alt: "チラシ",
+                    link: "./home/flyer.pdf",
+                }}
             />
             <Layout240
                 title="台湾文化を体験し、魅力を感じる特別な機会"
