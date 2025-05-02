@@ -9,6 +9,7 @@ import {
     useMediaQuery,
 } from '@mui/material';
 import { BiLogoInstagram } from "react-icons/bi";
+import { GoHome } from "react-icons/go";
 
 import { ShopDef } from '../data/shops';
 
@@ -54,6 +55,36 @@ export function ShopCard(props: ShopCardProps) {
                         {props.shop.instagramHandle}
                     </a>
                 </Stack>
+                {props.shop.url && (
+                    <Stack direction="row" spacing={0.5} alignItems="center"
+                        style={{
+                            "marginTop": "5px",
+                            "overflow": "hidden",
+                            "wordBreak": "break-word",
+                            "overflowWrap": "break-word",
+                        }}
+                    >
+                        <GoHome className="size-6" color="#66c"
+                            style={{
+                                "width": "24px",
+                                "height": "24px",
+                                "minWidth": "24px",
+                                "flexShrink": "0",
+                            }}
+                        />
+                        <a
+                            href={props.shop.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600"
+                            style={{
+                                "lineHeight": "1.1",
+                            }}
+                        >
+                            {props.shop.url}
+                        </a>
+                    </Stack>
+                )}
             </CardContent>
         </Card>
     );

@@ -13,6 +13,7 @@ export interface ShopDef {
     requiresReservation: boolean;
     isTalkShow: boolean;
     isMusicLive: boolean;
+    url?: string;
 }
 
 export const shopDefs: ShopDef[] = [
@@ -28,6 +29,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "chinyuri_6v6",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://matchaneko.net",
     },
     {
         shopName: "燕堂",
@@ -41,6 +43,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "tsubame_do",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://blueswallow.thebase.in",
     },
     {
         shopName: "陶芸 佐々木ヨーコ",
@@ -54,6 +57,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "yoyoshimada",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://sasakiyoko.base.shop",
     },
     {
         shopName: "MEILI",
@@ -67,6 +71,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "meilicoffee",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://meilicoffee.base.shop",
     },
     {
         shopName: "麺線屋formosa",
@@ -80,6 +85,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "formosa.cafe2015",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://formosa2015.com",
     },
     {
         shopName: "黒猫豆花",
@@ -93,6 +99,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "kuroneko_nikukyu",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://kuroneko-douhua.com",
     },
     {
         shopName: "湘湘的台灣點滴",
@@ -119,6 +126,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "maha_taiwan",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://sousoutaiwan.com",
     },
     {
         shopName: "dea Roselle",
@@ -132,6 +140,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "dea_roselle_asmile",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://asmilejapan.thebase.in",
     },
     {
         shopName: "WM workshop",
@@ -145,6 +154,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "wmworkshop_in_japan",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://www.facebook.com/wennymaisonworkshop",
     },
     {
         shopName: "莉婷子 riteco",
@@ -158,6 +168,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "riteco.store",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://riteco.jimdofree.com",
     },
     {
         shopName: "FILO",
@@ -171,6 +182,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "aogu_daocao",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://www.filo-d.com",
     },
     {
         shopName: "在日台湾原住民連合会",
@@ -184,6 +196,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "tfna_jp",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://www.facebook.com/TFNAjp",
     },
     {
         shopName: "アジアンノット",
@@ -210,6 +223,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "chie_sasa",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://i.fileweb.jp/sasakichie",
     },
     {
         shopName: "茶呈 白緑",
@@ -236,6 +250,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "taiwan.lotus",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://ameblo.jp/nana-you-mama",
     },
     {
         shopName: "芽実",
@@ -262,6 +277,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "yubiyubiquilt",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://yubiquilt.exblog.jp",
     },
     {
         shopName: "菓子屋chercheuses",
@@ -275,6 +291,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "chercheuses_",
         isTalkShow: false,
         isMusicLive: false,
+        url: "https://chercheuses-dessert.shopinfo.jp",
     },
     {
         shopName: "你你好好",
@@ -288,6 +305,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "ninihaohao_podcast",
         isTalkShow: true,
         isMusicLive: false,
+        url: "https://1link.jp/yukikoishii928",
     },
     {
         shopName: "HowTo Taiwan",
@@ -301,6 +319,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "howto_taiwan",
         isTalkShow: true,
         isMusicLive: false,
+        url: "https://howto-taiwan.com",
     },
     {
         shopName: "佐野いくみの喜々台湾",
@@ -314,6 +333,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "kikitaiwan_podcast",
         isTalkShow: true,
         isMusicLive: false,
+        url: "https://open.spotify.com/show/15ZDxvdmNcsJ0D821NveDu",
     },
     {
         shopName: "門司&佐々木",
@@ -327,6 +347,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "norikomonji",
         isTalkShow: true,
         isMusicLive: false,
+        url: "https://www.amazon.co.jp/dp/409802313X",
     },
     {
         shopName: "竹内将子",
@@ -340,6 +361,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "masako_asianbreeze",
         isTalkShow: true,
         isMusicLive: false,
+        url: "https://www.facebook.com/profile.php?id=100081833750617",
     },
     {
         shopName: "young donuts",
@@ -353,6 +375,7 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "youngdonuts1072",
         isTalkShow: false,
         isMusicLive: true,
+        url: "https://www.youngdonuts.net",
     },
     {
         shopName: "洸美",
@@ -366,5 +389,6 @@ export const shopDefs: ShopDef[] = [
         instagramHandle: "hiromitaiwan",
         isTalkShow: false,
         isMusicLive: true,
+        url: "https://www.youtube.com/@dbn0527",
     },
 ];
