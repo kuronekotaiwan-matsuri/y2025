@@ -27,7 +27,7 @@ export default function Home() {
                         description:"〒213-0002 神奈川県川崎市高津区二子２丁目８−８ ウッディモアル　駄菓子の木村屋",
                         mapUrl: "https://maps.app.goo.gl/En2HiiN8Xxkav8616",
                     },
-                    {title:"開催時間", description:"10:00-18:00"},
+                    {title:"開催時間", description:"11:00-17:00"},
                     {title:"参加費", description:"無料"},
                 ]}
                 image={{
