@@ -1,4 +1,4 @@
-"use client";
+import { Metadata } from "next";
 
 import { Header49 } from "@/components/Header49";
 import { Team5 } from "@/components/Team5";
@@ -6,8 +6,12 @@ import { Layout16 } from "@/components/Layout16";
 
 import { members } from "@/data/members";
 
+export const metadata: Metadata = {
+    title:
+        "運営メンバー情報 | 黒猫台湾まつり2025",
+};
+
 export default function Member() {
-    //const title = "運営メンバー情報 | 黒猫台湾まつり2025";
     return (
         <>
             <Header49

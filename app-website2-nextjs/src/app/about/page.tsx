@@ -1,10 +1,15 @@
-"use client";
+import { Metadata } from "next";
 
 import { Header49 } from "@/components/Header49";
 import { Layout18 } from "@/components/Layout18";
 import { Layout237 } from "@/components/Layout237";
 import { Gallery18 } from "@/components/Gallery18";
 import { Contact14 } from "@/components/Contact14";
+
+export const metadata: Metadata = {
+    title:
+        "黒猫台湾まつりについて | 黒猫台湾まつり2025",
+};
 
 export default function About() {
     //const title = "黒猫台湾まつりについて | 黒猫台湾まつり2025";

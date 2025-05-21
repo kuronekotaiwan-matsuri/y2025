@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 import { Header1 } from "@/components/Header1";
 import { Header44 } from "@/components/Header44";
 import { Layout240 } from "@/components/Layout240";
@@ -5,10 +7,12 @@ import { Layout41 } from "@/components/Layout41";
 import { Gallery18 } from "@/components/Gallery18";
 import { Contact14 } from "@/components/Contact14";
 
-export default function Home() {
-    // あとでやる★
-    //let title="台湾まるごと体験！黒猫台湾まつり2025 公式サイト | 5/31(土) 6/1(日) 開催";
+export const metadata: Metadata = {
+    title:
+        "台湾まるごと体験！黒猫台湾まつり2025 公式サイト | 5/31(土) 6/1(日) 開催",
+};
 
+export default function Home() {
     return (
         <>
             <Header1

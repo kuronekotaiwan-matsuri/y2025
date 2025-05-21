@@ -1,16 +1,19 @@
-"use client";
+import { Metadata } from "next";
 
 import { Header49 } from "@/components/Header49";
 import { Layout300 } from "@/components/Layout300";
 
 import { shopDefs, ShopDef } from "@/data/shops";
 
+export const metadata: Metadata = {
+    title:
+        "出店者情報 | 黒猫台湾まつり2025",
+};
+
 
 export default function Shops() {
     // 出店者情報
-    //let shops: ShopDef[] = shopDefs.sort(() => Math.random() - 0.5);  // ランダムに並び替える
     const shops: ShopDef[] = shopDefs;
-    //let title = "出店者情報 | 黒猫台湾まつり2025";
 
     return (
         <>

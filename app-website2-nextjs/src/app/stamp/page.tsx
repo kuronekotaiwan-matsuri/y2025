@@ -1,17 +1,18 @@
-"use client";
-
 /*
 スタンプカード
 */
+import { Metadata } from "next";
 
 import { Header49 } from "@/components/Header49";
 import { StampCard } from "@/components/StampCard";
 import { Layout41Copy } from "@/components/Layout41Copy";
 
+export const metadata: Metadata = {
+    title:
+        "スタンプラリーで楽しもう！ | 黒猫台湾まつり2025",
+};
 
 export default function Stamp() {
-    // const title = "スタンプラリーで楽しもう！ | 黒猫台湾まつり2025";
-
     return (
         <>
             <Header49
