@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./app-website2-next-js
+        working-directory: ./app-website2-nextjs
 
     steps:
       - name: Checkout code
