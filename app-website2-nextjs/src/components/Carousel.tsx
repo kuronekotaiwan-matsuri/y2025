@@ -26,7 +26,7 @@ export const Carousel = ({ slides }: CarouselProps) => {
         spaceBetween={20}
         slidesPerView={1}
         navigation
-        pagination={{ renderBullet: (_index, _className) => "" }}
+        pagination={{ renderBullet: () => "" }}
         autoplay={{ delay: 4000 }}
         loop
         style={{ borderRadius: 12, paddingBottom: 40 }}

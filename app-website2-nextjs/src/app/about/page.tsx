@@ -7,7 +7,7 @@ import { Gallery18 } from "@/components/Gallery18";
 import { Contact14 } from "@/components/Contact14";
 
 export default function About() {
-    const title = "黒猫台湾まつりについて | 黒猫台湾まつり2025";
+    //const title = "黒猫台湾まつりについて | 黒猫台湾まつり2025";
     return (
         <>
             <Header49

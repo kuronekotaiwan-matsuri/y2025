@@ -9,8 +9,8 @@ import { shopDefs, ShopDef } from "@/data/shops";
 export default function Shops() {
     // 出店者情報
     //let shops: ShopDef[] = shopDefs.sort(() => Math.random() - 0.5);  // ランダムに並び替える
-    let shops: ShopDef[] = shopDefs;
-    let title = "出店者情報 | 黒猫台湾まつり2025";
+    const shops: ShopDef[] = shopDefs;
+    //let title = "出店者情報 | 黒猫台湾まつり2025";
 
     return (
         <>
