@@ -45,11 +45,8 @@ export function Footer2(props: Footer2Props) {
                 src={`${imageBasePath}${props.logo.src}`}
                 alt={props.logo.alt}
                 width={120}
-                height={26}
-                style={{
-                  width: "120px",
-                  height: "auto"
-                }}
+                height={120}
+                priority
               />
             </Link>
             <div className="flex flex-col items-start justify-start">

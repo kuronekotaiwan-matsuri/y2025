@@ -28,7 +28,7 @@ export function StampCard() {
 
     // 新しいスタンプを、stampIdsに追加し、クッキーを更新する
     const addNewStamp = (curCookieStamps:string[], newStampId:string): string[] => {
-        let retStamps: string[] = [...curCookieStamps];
+        const retStamps: string[] = [...curCookieStamps];
 
         // 今回のスタンプIDが、存在していなければ追加する
         if (!curCookieStamps.includes(newStampId)) {
