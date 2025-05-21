@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./app-website
+        working-directory: ./app-website2-next-js
 
     steps:
       - name: Checkout code
@@ -25,6 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Create .env.local
+        run: |
+          echo "NEXT_PUBLIC_BASE_PATH=${{ secrets.NEXT_PUBLIC_BASE_PATH }}" >> .env.local
+
       - name: Build
         run: npm run build
 
@@ -32,4 +36,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./app-website/dist
+          publish_dir: ./app-website2-next-js/out
