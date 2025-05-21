@@ -65,6 +65,7 @@ const useRelume = () => {
     animateMobileMenuButtonSpan,
     animateDropdownMenu,
     animateDropdownMenuIcon,
+    setIsMobileMenuOpen,
   };
 };
 
@@ -187,7 +188,12 @@ export function Navbar7(props: Navbar7Props) {
           >
             <div className="flex flex-col">
                 {props.links.map((link, index) => (
-                    <Link href={link.url} key={index} className="block py-3 text-md">
+                    <Link
+                      href={link.url}
+                      key={index}
+                      className="block py-3 text-md"
+                      onClick={() => useActive.setIsMobileMenuOpen(false)}
+                    >
                         {link.title}
                     </Link>
                 ))}
