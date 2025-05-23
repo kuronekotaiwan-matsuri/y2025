@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kuronekotaiwan-matsuri.github.io/y2025/sitemap.xml
