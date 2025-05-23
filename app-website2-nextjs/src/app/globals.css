@@ -5,6 +5,10 @@ body {
     line-height: 28.8px;
 }
 
+footer {
+    background-color: #ffbfbf;
+}
+
 /* なぜか効かないクラスは、ここで直接書く */
 
 .sr-only	{

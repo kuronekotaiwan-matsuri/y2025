@@ -42,6 +42,10 @@ export function Footer() {
                         title: "スタンプラリー",
                         url: "/stamp",
                     },
+                    {
+                        title: "プレスリリース",
+                        url: "/press",
+                    },
                 ]}
                 socialLinks={[
                     {

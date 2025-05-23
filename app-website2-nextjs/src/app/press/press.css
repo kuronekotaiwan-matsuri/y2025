@@ -1,0 +1,35 @@
+div.press {
+    padding: 2rem;
+}
+.press h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+.press h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+.press div {
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+}
+.press hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-color: #ddd;
+}
+.press a {
+    color: #33f;
+    text-decoration: underline;
+}
+.press li {
+    list-style-type: disc;
+}
+.press li div {
+    padding-left: 0.8rem;
+    padding-bottom: 0.7rem;
+}
