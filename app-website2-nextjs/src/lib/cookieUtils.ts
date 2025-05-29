@@ -1,14 +1,26 @@
-
 // クッキーの有効期限
 const COOKIE_EXPIRATION_TIME = 86400;
 
+// 互換性の高いUUID生成関数
+const generateUUID = (): string => {
+    if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+        return crypto.randomUUID();
+    }
+    
+    // フォールバック: ランダムなUUIDを生成
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        const r = Math.random() * 16 | 0;
+        const v = c === 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+    });
+};
 
 // クッキーからユーザーIDを取得する or 作成する
 export const getOrCreateUniqueUserId = ():string => {
     const key = 'user_id';
     const match = document.cookie.match(new RegExp(`${key}=([^;]+)`));
     if (match) return match[1];
-    const id = crypto.randomUUID();
+    const id = generateUUID();
 
     // １日だけ有効なクッキーを作成する
     setCookie(key, id);

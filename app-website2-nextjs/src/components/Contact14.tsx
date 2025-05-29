@@ -3,6 +3,8 @@
 import { BiEnvelope, BiMap, BiLogoInstagram } from "react-icons/bi";
 import Link from "next/link";
 
+import { MyMap } from "./MyMap";
+
 export function Contact14() {
   return (
     <section id="kuroneko-contact14" className="px-[5%] py-16 md:py-24 lg:py-28">
@@ -57,17 +59,7 @@ export function Contact14() {
               </p>
             </div>
           </div>
-          <div
-            className="relative aspect-square w-full min-w-0"
-          >
-            <iframe
-              src="https://www.google.com/maps/d/u/0/embed?mid=1KbGoKJO7FHHM2dcmUZ0XpOAWMx8K5Ck&ehbc=2E312F"
-              className="absolute inset-0 w-full h-full border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+          <MyMap />
         </div>
       </div>
     </section>
