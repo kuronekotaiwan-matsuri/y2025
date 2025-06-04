@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 
+import { HeadMessage } from "@/components/HeadMessage";
 import { Header1 } from "@/components/Header1";
 import { Header44 } from "@/components/Header44";
 import { Layout240 } from "@/components/Layout240";
@@ -15,6 +16,9 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
+            <HeadMessage
+                message="2025年5月31日・6月1日に開催された「黒猫台湾まつり」は終了しました。ご来場ありがとうございました。次回開催もお楽しみに！"
+            />
             <Header1
                 title="黒猫台湾まつりで台湾文化を体験しよう"
                 description="黒猫台湾まつりでは、台湾の美味しい料理や飲み物、文化を楽しむことができます。地域の人々との交流を通じて、台湾の魅力を存分に味わいましょう。"
