@@ -9,9 +9,9 @@ const imageBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const metadata: Metadata = {
     title:
-        "台湾まるごと体験！黒猫台湾まつり2025 公式サイト | 5/31(土) 6/1(日) 開催",
+        "台湾まるごと体験！黒猫台湾まつり2025 公式サイト | 5/31(土) 6/1(日) 開催終了しました",
     description:
-        "台湾グルメや雑貨、ワークショップが楽しめる「黒猫台湾まつり」は、川崎市二子新地・大山街道で5月31日〜6月1日開催！町歩きと台湾体験を一度に♪",
+        "2025年5月31日・6月1日に開催された「黒猫台湾まつり」は終了しました。ご来場ありがとうございました。次回開催もお楽しみに！",
     robots: "index, follow",
     icons: {
         icon: `${imageBasePath}/favicon.ico`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "黒猫台湾まつり2025｜川崎市二子新地で台湾文化体験！",
         description:
-            "台湾グルメや雑貨、ワークショップが楽しめる「黒猫台湾まつり」は、川崎市二子新地・大山街道で5月31日〜6月1日開催！町歩きと台湾体験を一度に♪",
+            "2025年5月31日・6月1日に開催された「黒猫台湾まつり」は終了しました。ご来場ありがとうございました。次回開催もお楽しみに！",
         url: "https://kuronekotaiwan-matsuri.github.io/y2025/",
         type: "website",
         images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "黒猫台湾まつり2025｜川崎市二子新地で台湾文化体験！",
         description:
-            "台湾グルメや雑貨、ワークショップが楽しめる「黒猫台湾まつり」は、川崎市二子新地・大山街道で5月31日〜6月1日開催！町歩きと台湾体験を一度に♪",
+            "2025年5月31日・6月1日に開催された「黒猫台湾まつり」は終了しました。ご来場ありがとうございました。次回開催もお楽しみに！",
         images: [
             "https://kuronekotaiwan-matsuri.github.io/y2025/home/kuroneko_taiwan_top.png",
         ],
@@ -75,11 +75,11 @@ export default function RootLayout({
                         "@context": "https://schema.org",
                         "@type": "Event",
                         name: "黒猫台湾まつり 2025",
-                        description: "台湾を愛してやまない有志たちが心を込めて企画した、台湾関連の飲食や物販、トークイベント、音楽ライブを行います。",
+                        description: "2025年5月31日・6月1日に開催された『黒猫台湾まつり』は終了しました。たくさんのご来場、ありがとうございました。次回開催をお楽しみに！",
                         startDate: "2025-05-31T11:00+09:00",
                         endDate: "2025-06-01T17:00+09:00",
                         eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-                        eventStatus: "https://schema.org/EventScheduled",
+                        eventStatus: "https://schema.org/EventCompleted",
                         location: {
                             "@type": "Place",
                             name: "二子大通り商和会商店街 駄菓子の木村屋",
