@@ -6,6 +6,7 @@ import { Header49 } from "@/components/Header49";
 import { StampCard } from "@/components/StampCard";
 import { Layout41Copy } from "@/components/Layout41Copy";
 import { MyMap } from "@/components/MyMap";
+import { StampCardMessage } from "@/components/StampCardMessage";
 
 declare global {
     interface Window {
@@ -36,6 +37,7 @@ export default function StampPageClient() {
                 description="黒猫台湾まつりでは、参加するたびにワクワクがたまるスタンプカードをご用意しています。出店を巡ってスタンプを集め、素敵な特典をゲットしましょう！"
             />
             <StampCard />
+            <StampCardMessage />
             <Layout41Copy
                 heading="スタンプがあるところ"
                 description={
